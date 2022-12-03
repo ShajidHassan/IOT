@@ -1,0 +1,37 @@
+
+	RFID
+
+		SDA   -----  Arduino Digital 10						
+		SCK   -----  Arduino Digital 13
+		MOSI  ----  Arduino Digital 11
+		MISO  ----  Arduino Digital 12
+		GND   -----  BB(GND)
+		RST   -----  Arduino Digital 9
+		3.3V  ----  Arduino 3.3V
+
+
+	SERVO MOTOR
+
+  
+    		Output(Orange) -----  Arduino Digital 5					Arduino GND ------ BB(GND) 
+		VCC(Red)       -----  BB(Positive) 					Arduino 5V  ------ BB(Positive)
+ 		GND(Brown)     -----  BB(GND)
+
+
+        LCD Display
+										        10k ohm resistor(Orange) -----  BB(Positive)
+											1k ohm resistor(Red)     -----  BB(GND)					
+        	VSS  --------   BB(GND)
+		VDD  --------   BB(Positive)
+		V0   --------   BB(10k ohm and 1k ohm resistor)                         
+		Rs   --------   Arduino Analog A0
+		Rw   --------   BB(GND)
+		E    --------   Arduino Analog A1
+		D4   --------   Arduino Analog A2
+		D5   --------   Arduino Analog A3
+		D6   --------   Arduino Analog A4
+		D7   --------   Arduino Analog A5
+		A    --------   BB(Positive)
+		K    --------   BB(GND)
+
+	
